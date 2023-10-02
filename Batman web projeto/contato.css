@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background-color: black;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color:aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', san-serif;
+}
+
+li:hover {
+    color:brown;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+body{
+    font-size: arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #a50a19,#910813,#7e050d,#6a0306,#560000);
+    background-size: cover;
+}
+
+.box{
+    width: 50% 50% 50% 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    
+}
+
+fieldset{
+    margin-top: 50px;
+    border: 2px solid white;
+    background-image: linear-gradient(to right, #a50a19,#7e050d,#6a0306,#560000, #4d0000);
+    border-radius: 5px;
+    padding: 40px;
+}
+
+legend{
+    border: 1px solid white;
+    background-image: linear-gradient(to right, #a50a19,#7e050d,#6a0306,#560000, #4d0000);
+    padding: 05px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.inputBox{
+    position: relative;
+    background-image: linear-gradient(to right, #a50a19,#7e050d,#6a0306,#560000, #4d0000);
+}
+
+.inputUser{
+    margin-top: 10px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    background-image: linear-gradient(to right, #a50a19,#7e050d,#6a0306,#560000, #4d0000);
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+}
+
+.data{
+    margin-top: 10px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    background-image: linear-gradient(to right, #a50a19,#7e050d,#6a0306,#560000, #4d0000);
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+}
+
+.email{
+    margin-top: 10px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    background-image: linear-gradient(to right, #a50a19,#7e050d,#6a0306,#560000, #4d0000);
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+}
+
+b{
+    background-image: linear-gradient(to right, #a50a19,#7e050d,#6a0306,#560000, #4d0000);
+    font-size: 20px;
+}
+
+button{
+    background-image: linear-gradient(to right, #a50a19,#7e050d,#6a0306,#560000, #4d0000);
+    width: 100%;
+    border: 1px solid white;
+    padding: 12px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.cidade{
+    margin-top: 10px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    background-image: linear-gradient(to right, #a50a19,#7e050d,#6a0306,#560000, #4d0000);
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+}
+
+select{
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+label{
+    background-image: linear-gradient(to right, #a50a19,#7e050d,#6a0306,#560000, #4d0000);
+    border: none;
+}
+
+.mensagem{
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: #7e050d;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    
+}
+
+option{
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: #7e050d;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    width: 100%;
+}
+
+
+footer {
+    height: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: white;
+    font-family: 'Kdam Thmor Pro', san-serif;
+}
+
+.span2 {
+    font-size: 14px;
+    color: white;
+    font-family: 'Kdam Thmor Pro', san-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #banner {
+        background-position: 40%;
+    }
+
+    #trailer-container {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trailer {
+        width: 100%;
+    }
+
+    #sinope {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+   
+    .description {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+}
+
+img{
+    background-image: 100px;
+    width: 150px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
